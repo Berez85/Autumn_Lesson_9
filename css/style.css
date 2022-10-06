@@ -1,0 +1,178 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "lato";
+	background: url("../img/OnlineCourse/background.webp") 0 0 no-repeat;
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 150px;
+	
+}
+
+.header-navigation {
+	margin: 0 auto;
+	max-width: 1230px;
+	min-height: 52px;
+	/* background-color: rgb(233, 230, 218); */
+}
+
+.logo {
+	display: inline-block;
+	width: 130px;
+	height: 22px;
+	background: url("../img/OnlineCourse/logo.svg") 0 0 no-repeat;
+}
+
+.header-list li{
+	display: inline-block;
+	margin: 0px 40px 0px 0px;
+	font-weight: 700;
+	vertical-align: middle;
+}
+
+.header-list li:last-child {
+	margin: 0px;
+}
+
+.header-list li:nth-child(6) {
+	margin: 0px 220px 0px 0px;
+}
+
+.button {
+	color: beige;
+	/* font-size: 40px; */
+	display: inline-block;
+	background-color: #FF3F3A;
+	padding: 16px 38px 16px 38px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 5px 1px rgb(234, 242, 255);
+}
+
+.button:hover {
+	color: rgb(117, 49, 196);
+	text-decoration: underline;
+}
+
+.button:active {
+	color: rgb(214, 123, 4);
+	text-decoration: underline;
+}
+
+.person::before {
+	content: "";
+	width: 16px;
+	min-height: 16px;
+	display: inline-block;
+	margin: 0px 15px -3px 0px;
+	background: url("../img/OnlineCourse/person-colorless.svg") 0 0px / 16px no-repeat;
+	transition: all 0.5s ease 0s;
+}
+
+.main {}
+
+.main-block {
+	margin: 0 auto;
+	max-width: 1230px;
+}
+
+.main-button-play {
+	margin-bottom: 60px;
+}
+
+.button-play {
+	font-weight: 900;
+}
+
+.button-play::before {
+	content: "";
+	width: 80px;
+	min-height: 80px;
+	display: inline-block;
+	margin: 0px 0px -35px -20px;
+	background: url("../img/OnlineCourse/blay-btn.svg") 0 0px / 80px no-repeat;
+	transition: all 0.5s ease 0s;
+}
+
+.main-title {
+	max-width: 496px;
+	min-height: 249px;
+	font-size: 64px;
+	font-weight: 900;
+	margin: 0px 0px 50px 0px;
+}
+
+.main-button {
+	margin-bottom: 240px;
+}
+
+.main-button-color,
+.main-button-colorless {
+	display: inline-block;
+	font-weight: 700;
+}
+
+.button-colorless{
+	color: #FF3F3A;
+	display: inline-block;
+	padding: 15px 38px 15px 38px;
+	border-radius: 5px;
+	border-top: 1px solid #FF3F3A;
+	border-right: 1px solid #FF3F3A;
+	border-bottom: 1px solid #FF3F3A;
+	border-left: 1px solid #FF3F3A;
+	box-shadow: inset 0px 0px 5px 1px rgb(234, 242, 255);
+}
+
+.button-colorless:hover {
+	color: rgb(117, 49, 196);
+	text-decoration: underline;
+}
+
+.main-button-color {}
+
+.button {}
+
+.main-list {
+	margin-bottom: 110px;
+}
+
+.main-list li{
+	display: inline-block;
+	font-size: 46px;
+	font-weight: 900;
+	margin: 0px 130px 0px 0px;
+	
+}
+
+.main-list li:last-child {
+	margin: 0px;
+}
+
+.amount-text {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	vertical-align: middle;
+	padding: 0px 0px 10px 0px;
+}
+
+.amount {}
+
+.students {}
+
+.completed {}
+
+.qualified {}
+
+.years {}
+
+.block-img {
+	max-width: 900px;
+	margin: 0 auto;
+}
